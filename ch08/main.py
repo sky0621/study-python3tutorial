@@ -11,4 +11,5 @@ except ValueError:
 except:
     print("予期せぬエラー： ", sys.exc_info()[0])
     raise
-
+finally:
+    f.close()

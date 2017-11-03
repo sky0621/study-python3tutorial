@@ -1,0 +1,2 @@
+def chiMethod():
+    return "chiMethod"
